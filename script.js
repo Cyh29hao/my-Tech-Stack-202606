@@ -128,17 +128,18 @@ const projects = [
   {
     name: "The-SJTU-Intelligent-Optoelectronic-Computing-Lab",
     url: "https://github.com/Cyh29hao/The-SJTU-Intelligent-Optoelectronic-Computing-Lab",
+    liveUrl: "https://opticompt-lab.sjtu.edu.cn",
     lane: "web",
     tags: ["Python", "HTML", "CSS", "Deployment"],
     zh: {
       lane: "网站",
-      summary: "上海交大光电智能计算实验室网站仓库。",
-      detail: "README 列出主站和备份部署地址，简历材料中记录了从页面开发到上线维护的工程交付经历。",
+      summary: "上海交大光电智能计算实验室网站仓库，可直接打开线上主站。",
+      detail: "公开仓库 README 列出主站和备份部署地址；简历材料中记录了从页面开发到上线维护的工程交付经历。",
       status: "公开网站仓库"
     },
     en: {
       lane: "Web",
-      summary: "Repository for the SJTU Intelligent Optoelectronic Computing Lab website.",
+      summary: "Repository for the SJTU Intelligent Optoelectronic Computing Lab website, with a directly available live site.",
       detail: "The README lists the main site and backup deployments. Local profile materials record the page development, deployment, and maintenance work.",
       status: "Public website repo"
     }
@@ -146,17 +147,18 @@ const projects = [
   {
     name: "Static-Online-Minesweeper-Game",
     url: "https://github.com/Cyh29hao/Static-Online-Minesweeper-Game",
+    liveUrl: "https://cyh29hao.github.io/Static-Online-Minesweeper-Game/",
     lane: "web",
     tags: ["HTML", "JavaScript", "GitHub Pages"],
     zh: {
       lane: "网站",
-      summary: "静态在线扫雷游戏。",
+      summary: "静态在线扫雷游戏，可直接在线游玩。",
       detail: "仓库包含 GitHub Pages 页面、index.html、app.js、puzzle audit 脚本、验证页面和 Supabase schema。",
       status: "静态游戏"
     },
     en: {
       lane: "Web",
-      summary: "Static online Minesweeper game.",
+      summary: "Static online Minesweeper game, directly playable on GitHub Pages.",
       detail: "The repo contains a GitHub Pages entry, index.html, app.js, puzzle audit script, verification page, and Supabase schema.",
       status: "Static game"
     }
@@ -254,6 +256,9 @@ function renderProjects() {
       const copy = project[lang];
       const tags = project.tags.map((tag) => `<span>${tag}</span>`).join("");
       const detailId = `project-detail-${index}`;
+      const liveLink = project.liveUrl
+        ? `<a class="project-live" href="${project.liveUrl}" target="_blank" rel="noreferrer">${lang === "zh" ? "打开网页" : "Live Site"}</a>`
+        : "";
       return `
         <article class="project-card" data-project="${project.name}">
           <header>
@@ -266,6 +271,7 @@ function renderProjects() {
             <p class="project-detail" id="${detailId}">${copy.detail}<br /><strong>${copy.status}</strong></p>
           </div>
           <div class="project-footer">
+            ${liveLink}
             <a class="project-link" href="${project.url}" target="_blank" rel="noreferrer">
               ${lang === "zh" ? "打开仓库" : "Open Repo"}
             </a>

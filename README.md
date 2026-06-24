@@ -67,6 +67,13 @@ pie title Public code language snapshot
 | Web and documentation | Lab website, static game, README/release docs, public/private boundary documents | [`The-SJTU-Intelligent-Optoelectronic-Computing-Lab`](https://github.com/Cyh29hao/The-SJTU-Intelligent-Optoelectronic-Computing-Lab), [`Static-Online-Minesweeper-Game`](https://github.com/Cyh29hao/Static-Online-Minesweeper-Game) |
 | Data analysis | Selenium collection, statistical analysis, CSV/XLSX datasets, LaTeX reports | [`clash-royale-card-balance-statistics`](https://github.com/Cyh29hao/clash-royale-card-balance-statistics) |
 
+## Live Websites
+
+| Website | Open | Repository |
+| --- | --- | --- |
+| SJTU Intelligent Optoelectronic Computing Lab | [Open website](https://opticompt-lab.sjtu.edu.cn) | [Source repo](https://github.com/Cyh29hao/The-SJTU-Intelligent-Optoelectronic-Computing-Lab) |
+| Static Online Minesweeper Game | [Play online](https://cyh29hao.github.io/Static-Online-Minesweeper-Game/) | [Source repo](https://github.com/Cyh29hao/Static-Online-Minesweeper-Game) |
+
 <a id="中文"></a>
 
 <details open>
@@ -100,14 +107,14 @@ pie title Public code language snapshot
 
 ### 4. 网站、文档和数据分析
 
-- [`The-SJTU-Intelligent-Optoelectronic-Computing-Lab`](https://github.com/Cyh29hao/The-SJTU-Intelligent-Optoelectronic-Computing-Lab) 是上海交大光电智能计算实验室网站仓库，README 中列出主站和备份部署地址。
+- [`The-SJTU-Intelligent-Optoelectronic-Computing-Lab`](https://github.com/Cyh29hao/The-SJTU-Intelligent-Optoelectronic-Computing-Lab) 是上海交大光电智能计算实验室网站仓库；线上主站可直接打开：[https://opticompt-lab.sjtu.edu.cn](https://opticompt-lab.sjtu.edu.cn)。
 - [`clash-royale-card-balance-statistics`](https://github.com/Cyh29hao/clash-royale-card-balance-statistics) 是概率论与数理统计课程项目，基于 RoyaleAPI matchup 数据分析《皇室战争》卡牌平均强度与波动性关系；README 中记录了 168 张卡牌、39,429,252 场加权 matchup 样本和加权 Pearson 相关系数 `0.1476`。
 - [`Aesthetics-Course-Essay-Preparation`](https://github.com/Cyh29hao/Aesthetics-Course-Essay-Preparation) 是基于课堂字幕整理的美学课程论文素材索引和写作手册。
 
 ### 5. 工具、游戏和算法旧档
 
 - [`shuixian-skill`](https://github.com/Cyh29hao/shuixian-skill) 是一个 Codex skill 项目，用语言样本、聊天记录和关系偏好生成自我镜像 companion。
-- [`Static-Online-Minesweeper-Game`](https://github.com/Cyh29hao/Static-Online-Minesweeper-Game) 是一个静态在线扫雷游戏，包含 GitHub Pages 页面、`index.html`、`app.js`、校验页面和 Supabase schema。
+- [`Static-Online-Minesweeper-Game`](https://github.com/Cyh29hao/Static-Online-Minesweeper-Game) 是一个静态在线扫雷游戏；可直接在线游玩：[https://cyh29hao.github.io/Static-Online-Minesweeper-Game/](https://cyh29hao.github.io/Static-Online-Minesweeper-Game/)。
 - [`Interesting-algorithms-in-my-OI-journey`](https://github.com/Cyh29hao/Interesting-algorithms-in-my-OI-journey) 记录了高中/早期 OI 训练中的 C++ 算法实现，例如网络流、树链剖分、莫队等。
 - [`claude-code`](https://github.com/Cyh29hao/claude-code) 是一个 fork 的教育性 Python porting workspace，README 中说明其目标是 Python-first 的学习与移植练习。
 
@@ -144,7 +151,7 @@ pie title Public code language snapshot
 | [`AMS-Assistant-for-Maritime-Service`](https://github.com/Cyh29hao/AMS-Assistant-for-Maritime-Service) | 航运业务本地桌面自动化工作台。 | Python, desktop app, Excel/Word automation, browser automation, packaging | 可展示的业务自动化原型。 |
 | [`Mail-Sorting-Assistant-for-Maritime-Service`](https://github.com/Cyh29hao/Mail-Sorting-Assistant-for-Maritime-Service) | 航运邮件同步、抽取和查询 MVP。 | Python, FastAPI, SQLite, IMAP, web UI | 可运行 MVP。 |
 | [`Automatic-Sync-Assistant-for-Excel-Files`](https://github.com/Cyh29hao/Automatic-Sync-Assistant-for-Excel-Files) | Excel 文件同步管理器。 | Python, GUI, Excel automation, PyInstaller | 小型本地工具。 |
-| [`The-SJTU-Intelligent-Optoelectronic-Computing-Lab`](https://github.com/Cyh29hao/The-SJTU-Intelligent-Optoelectronic-Computing-Lab) | 实验室网站仓库。 | Python, HTML, CSS, deployment | 公开网站仓库。 |
+| [`The-SJTU-Intelligent-Optoelectronic-Computing-Lab`](https://github.com/Cyh29hao/The-SJTU-Intelligent-Optoelectronic-Computing-Lab) | 实验室网站仓库；[打开线上网站](https://opticompt-lab.sjtu.edu.cn)。 | Python, HTML, CSS, deployment | 公开网站仓库。 |
 | [`D2NN-ViT-KD-final`](https://github.com/Cyh29hao/D2NN-ViT-KD-final) | D2NN/ViT/KD 易复现包。 | Jupyter, Python, PyTorch, ViT, D2NN, CIFAR-10 | 复现包。 |
 | [`My-own-D2NN-Research-Practices`](https://github.com/Cyh29hao/My-own-D2NN-Research-Practices) | 个人 D2NN 研究练习 notebooks。 | Jupyter, D2NN, ViT, KD | 研究练习空间。 |
 | [`D2NN-Forked-`](https://github.com/Cyh29hao/D2NN-Forked-) | D2NN fork/practice 仓库。 | Jupyter, PyTorch, D2NN, beam diffraction | Fork/practice。 |
@@ -152,7 +159,7 @@ pie title Public code language snapshot
 | [`Aesthetics-Course-Essay-Preparation`](https://github.com/Cyh29hao/Aesthetics-Course-Essay-Preparation) | 美学课程论文素材索引。 | Markdown, PDF, course notes | 文档整理。 |
 | [`shuixian-skill`](https://github.com/Cyh29hao/shuixian-skill) | Codex self-mirror companion skill。 | Python, Codex Skill, transcript import | 工具/skill 项目。 |
 | [`claude-code`](https://github.com/Cyh29hao/claude-code) | 教育性 Python porting workspace。 | Python, tests, CLI metadata | Fork；教育用途。 |
-| [`Static-Online-Minesweeper-Game`](https://github.com/Cyh29hao/Static-Online-Minesweeper-Game) | 静态在线扫雷游戏。 | HTML, JavaScript, Python, GitHub Pages | 静态游戏。 |
+| [`Static-Online-Minesweeper-Game`](https://github.com/Cyh29hao/Static-Online-Minesweeper-Game) | 静态在线扫雷游戏；[在线游玩](https://cyh29hao.github.io/Static-Online-Minesweeper-Game/)。 | HTML, JavaScript, Python, GitHub Pages | 静态游戏。 |
 | [`Interesting-algorithms-in-my-OI-journey`](https://github.com/Cyh29hao/Interesting-algorithms-in-my-OI-journey) | OI 时代 C++ 算法旧档。 | C++, graph algorithms, data structures | 小型算法 archive。 |
 | [`my-Tech-Stack-202606`](https://github.com/Cyh29hao/my-Tech-Stack-202606) | 本仓库；公开项目与技术栈索引。 | Markdown, portfolio index | 当前索引。 |
 
@@ -197,14 +204,14 @@ My public repositories are mostly about embedded systems, AI/optoelectronic comp
 
 ### 4. Web, Documents, and Data Analysis
 
-- [`The-SJTU-Intelligent-Optoelectronic-Computing-Lab`](https://github.com/Cyh29hao/The-SJTU-Intelligent-Optoelectronic-Computing-Lab) is the repository for the SJTU Intelligent Optoelectronic Computing Lab website.
+- [`The-SJTU-Intelligent-Optoelectronic-Computing-Lab`](https://github.com/Cyh29hao/The-SJTU-Intelligent-Optoelectronic-Computing-Lab) is the repository for the SJTU Intelligent Optoelectronic Computing Lab website. The live site is directly available at [https://opticompt-lab.sjtu.edu.cn](https://opticompt-lab.sjtu.edu.cn).
 - [`clash-royale-card-balance-statistics`](https://github.com/Cyh29hao/clash-royale-card-balance-statistics) is a probability/statistics course project based on RoyaleAPI matchup data. The README reports 168 cards, 39,429,252 weighted matchup samples, and a weighted Pearson correlation of `0.1476`.
 - [`Aesthetics-Course-Essay-Preparation`](https://github.com/Cyh29hao/Aesthetics-Course-Essay-Preparation) is a lecture-subtitle-based writing and topic index for an aesthetics course essay.
 
 ### 5. Tools, Game, and Algorithm Notes
 
 - [`shuixian-skill`](https://github.com/Cyh29hao/shuixian-skill) is a Codex skill project for building a self-mirror companion from language samples, chat records, and relationship preferences.
-- [`Static-Online-Minesweeper-Game`](https://github.com/Cyh29hao/Static-Online-Minesweeper-Game) is a static online Minesweeper game with a GitHub Pages entry.
+- [`Static-Online-Minesweeper-Game`](https://github.com/Cyh29hao/Static-Online-Minesweeper-Game) is a static online Minesweeper game. It is playable at [https://cyh29hao.github.io/Static-Online-Minesweeper-Game/](https://cyh29hao.github.io/Static-Online-Minesweeper-Game/).
 - [`Interesting-algorithms-in-my-OI-journey`](https://github.com/Cyh29hao/Interesting-algorithms-in-my-OI-journey) is an older C++ algorithm archive from OI practice.
 - [`claude-code`](https://github.com/Cyh29hao/claude-code) is a forked educational Python porting workspace.
 
@@ -241,7 +248,7 @@ These are repository composition numbers, not a skill score. The newly committed
 | [`AMS-Assistant-for-Maritime-Service`](https://github.com/Cyh29hao/AMS-Assistant-for-Maritime-Service) | Local desktop automation workbench for maritime-service workflows. | Python, desktop app, Excel/Word automation, browser automation, packaging | Business automation prototype. |
 | [`Mail-Sorting-Assistant-for-Maritime-Service`](https://github.com/Cyh29hao/Mail-Sorting-Assistant-for-Maritime-Service) | Mail sync, extraction, and query MVP for maritime-service messages. | Python, FastAPI, SQLite, IMAP, web UI | Runnable MVP. |
 | [`Automatic-Sync-Assistant-for-Excel-Files`](https://github.com/Cyh29hao/Automatic-Sync-Assistant-for-Excel-Files) | Excel file synchronization manager. | Python, GUI, Excel automation, PyInstaller | Small local utility. |
-| [`The-SJTU-Intelligent-Optoelectronic-Computing-Lab`](https://github.com/Cyh29hao/The-SJTU-Intelligent-Optoelectronic-Computing-Lab) | Lab website repository. | Python, HTML, CSS, deployment | Public website repository. |
+| [`The-SJTU-Intelligent-Optoelectronic-Computing-Lab`](https://github.com/Cyh29hao/The-SJTU-Intelligent-Optoelectronic-Computing-Lab) | Lab website repository; [open live site](https://opticompt-lab.sjtu.edu.cn). | Python, HTML, CSS, deployment | Public website repository. |
 | [`D2NN-ViT-KD-final`](https://github.com/Cyh29hao/D2NN-ViT-KD-final) | Reproducible D2NN/ViT/KD package. | Jupyter, Python, PyTorch, ViT, D2NN, CIFAR-10 | Reproducibility package. |
 | [`My-own-D2NN-Research-Practices`](https://github.com/Cyh29hao/My-own-D2NN-Research-Practices) | Personal D2NN research-practice notebooks. | Jupyter, D2NN, ViT, KD | Research-practice workspace. |
 | [`D2NN-Forked-`](https://github.com/Cyh29hao/D2NN-Forked-) | Fork/practice D2NN repository. | Jupyter, PyTorch, D2NN, beam diffraction | Fork/practice. |
@@ -249,7 +256,7 @@ These are repository composition numbers, not a skill score. The newly committed
 | [`Aesthetics-Course-Essay-Preparation`](https://github.com/Cyh29hao/Aesthetics-Course-Essay-Preparation) | Aesthetics course essay material index. | Markdown, PDF, course notes | Documentation project. |
 | [`shuixian-skill`](https://github.com/Cyh29hao/shuixian-skill) | Codex self-mirror companion skill. | Python, Codex Skill, transcript import | Tool/skill project. |
 | [`claude-code`](https://github.com/Cyh29hao/claude-code) | Educational Python porting workspace. | Python, tests, CLI metadata | Fork; educational use. |
-| [`Static-Online-Minesweeper-Game`](https://github.com/Cyh29hao/Static-Online-Minesweeper-Game) | Static online Minesweeper game. | HTML, JavaScript, Python, GitHub Pages | Static game. |
+| [`Static-Online-Minesweeper-Game`](https://github.com/Cyh29hao/Static-Online-Minesweeper-Game) | Static online Minesweeper game; [play online](https://cyh29hao.github.io/Static-Online-Minesweeper-Game/). | HTML, JavaScript, Python, GitHub Pages | Static game. |
 | [`Interesting-algorithms-in-my-OI-journey`](https://github.com/Cyh29hao/Interesting-algorithms-in-my-OI-journey) | Older C++ OI algorithm archive. | C++, graph algorithms, data structures | Small algorithm archive. |
 | [`my-Tech-Stack-202606`](https://github.com/Cyh29hao/my-Tech-Stack-202606) | This repository: public project and tech-stack index. | Markdown, portfolio index | Current index. |
 
