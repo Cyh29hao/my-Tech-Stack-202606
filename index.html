@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Chen Yunhai / Cyh29hao public project map: embedded systems, Python automation, D2NN research practice, web delivery, data analysis, and Codex skill projects."
+    />
+    <title>Chen Yunhai / Cyh29hao - Project Map</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-lang="zh">
+    <div class="progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Back to top">
+        <span class="brand-mark">CYH</span>
+        <span class="brand-text">Cyh29hao</span>
+      </a>
+      <nav class="nav-links" aria-label="Page sections">
+        <a href="#map"><span class="zh">项目地图</span><span class="en">Map</span></a>
+        <a href="#stack"><span class="zh">技术栈</span><span class="en">Stack</span></a>
+        <a href="#projects"><span class="zh">项目</span><span class="en">Projects</span></a>
+      </nav>
+      <div class="header-actions" aria-label="Language">
+        <button class="lang-button active" type="button" data-set-lang="zh">中文</button>
+        <button class="lang-button" type="button" data-set-lang="en">EN</button>
+      </div>
+    </header>
+    <button class="mobile-language-toggle" id="mobileLang" type="button" aria-label="Switch language">EN</button>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <canvas id="signalCanvas" aria-hidden="true"></canvas>
+        <div class="hero-content">
+          <p class="eyebrow">SJTU Integrated Circuits / Embedded + AI + Tools</p>
+          <h1 id="hero-title">
+            <span class="zh">陈云海 / Cyh29hao</span>
+            <span class="en">Chen Yunhai / Cyh29hao</span>
+          </h1>
+          <p class="hero-copy zh">
+            上海交通大学集成电路学院电子科学与技术本科生。公开项目集中在 ARM 嵌入式、AI 光计算与 D2NN、自动化工具、网站交付和数据分析。
+          </p>
+          <p class="hero-copy en">
+            Undergraduate in Electronic Science and Technology at SJTU School of Integrated Circuits. Public work spans ARM embedded systems, D2NN research practice, Python automation tools, web delivery, and data analysis.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#projects">
+              <span class="zh">查看项目</span>
+              <span class="en">View Projects</span>
+            </a>
+            <a class="secondary-action" href="https://github.com/Cyh29hao" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+          </div>
+          <dl class="hero-stats" aria-label="Portfolio statistics">
+            <div>
+              <dt>16</dt>
+              <dd><span class="zh">公开仓库索引</span><span class="en">indexed repos</span></dd>
+            </div>
+            <div>
+              <dt>5</dt>
+              <dd><span class="zh">主线方向</span><span class="en">work lanes</span></dd>
+            </div>
+            <div>
+              <dt>66%</dt>
+              <dd><span class="zh">C/嵌入式代码占比</span><span class="en">C / embedded share</span></dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="map" class="section section-light" aria-labelledby="map-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Work Map</p>
+            <h2 id="map-title">
+              <span class="zh">一眼看懂公开项目主线</span>
+              <span class="en">Public Work, At A Glance</span>
+            </h2>
+            <p class="zh">
+              这个页面不是完整简历，而是把 GitHub 上已经公开的代码和文档整理成一个可浏览的技术地图。
+            </p>
+            <p class="en">
+              This page is not a full resume. It is a browsable map of public code and documentation already visible on GitHub.
+            </p>
+          </div>
+
+          <div class="lane-grid" aria-label="Main project lanes">
+            <article class="lane embedded">
+              <span class="lane-code">01</span>
+              <h3><span class="zh">嵌入式系统</span><span class="en">Embedded Systems</span></h3>
+              <p class="zh">ARM Cortex-M4 / TM4C1294，Keil 工程，传感器、显示、编码传输和双板实验。</p>
+              <p class="en">ARM Cortex-M4 / TM4C1294, Keil projects, sensors, display, encoded transmission, and dual-board experiments.</p>
+            </article>
+            <article class="lane automation">
+              <span class="lane-code">02</span>
+              <h3><span class="zh">本地自动化</span><span class="en">Local Automation</span></h3>
+              <p class="zh">Python 桌面工具、Excel/Word 工作流、航运业务原型、打包和 Windows 启动脚本。</p>
+              <p class="en">Python desktop tools, Excel/Word workflows, maritime-service prototypes, packaging, and Windows launch scripts.</p>
+            </article>
+            <article class="lane research">
+              <span class="lane-code">03</span>
+              <h3><span class="zh">AI 光计算实践</span><span class="en">AI Research Practice</span></h3>
+              <p class="zh">D2NN、ViT、知识蒸馏、CIFAR-10/MNIST、Notebook 复现包和烟测脚本。</p>
+              <p class="en">D2NN, ViT, knowledge distillation, CIFAR-10/MNIST, reproducible notebooks, and smoke tests.</p>
+            </article>
+            <article class="lane delivery">
+              <span class="lane-code">04</span>
+              <h3><span class="zh">网站与交付</span><span class="en">Web Delivery</span></h3>
+              <p class="zh">实验室官网、静态游戏、README/release 文档、公开/私有边界说明。</p>
+              <p class="en">Lab website, static game, README/release docs, and public/private boundary documentation.</p>
+            </article>
+            <article class="lane data">
+              <span class="lane-code">05</span>
+              <h3><span class="zh">数据与报告</span><span class="en">Data and Reports</span></h3>
+              <p class="zh">Selenium 数据采集、统计分析、CSV/XLSX 数据集、LaTeX/PDF 课程报告。</p>
+              <p class="en">Selenium collection, statistical analysis, CSV/XLSX datasets, and LaTeX/PDF course reports.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="stack" class="section section-dark" aria-labelledby="stack-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Stack Evidence</p>
+            <h2 id="stack-title">
+              <span class="zh">技术栈不是标签，是项目留下的痕迹</span>
+              <span class="en">The Stack Is Evidence, Not Decoration</span>
+            </h2>
+            <p class="zh">
+              语言占比来自公开仓库的代码体量组成。它会受到 TM4C 支持文件、notebook、报告材料和生成文件影响，不等同于能力评分。
+            </p>
+            <p class="en">
+              Language share reflects public repository composition. Driver libraries, notebooks, reports, and generated files affect the numbers, so this is not a skill score.
+            </p>
+          </div>
+
+          <div class="stack-layout">
+            <div class="language-bars" aria-label="Language footprint">
+              <div class="bar-row" style="--value: 66.37%">
+                <span>C / Embedded</span><strong>66.37%</strong><i></i>
+              </div>
+              <div class="bar-row" style="--value: 23.65%">
+                <span>Jupyter Notebook</span><strong>23.65%</strong><i></i>
+              </div>
+              <div class="bar-row" style="--value: 7.55%">
+                <span>Python</span><strong>7.55%</strong><i></i>
+              </div>
+              <div class="bar-row" style="--value: 1.15%">
+                <span>HTML / CSS / JavaScript</span><strong>1.15%</strong><i></i>
+              </div>
+              <div class="bar-row" style="--value: 0.64%">
+                <span>Assembly</span><strong>0.64%</strong><i></i>
+              </div>
+              <div class="bar-row" style="--value: 0.64%">
+                <span>TeX and others</span><strong>0.64%</strong><i></i>
+              </div>
+            </div>
+
+            <div class="stack-tags" aria-label="Stack tags">
+              <span>C</span>
+              <span>ARM Cortex-M4</span>
+              <span>TM4C1294</span>
+              <span>Keil MDK</span>
+              <span>PyQt5</span>
+              <span>FastAPI</span>
+              <span>SQLite</span>
+              <span>Selenium</span>
+              <span>PyTorch</span>
+              <span>D2NN</span>
+              <span>ViT</span>
+              <span>Flask</span>
+              <span>LaTeX</span>
+              <span>GitHub Pages</span>
+              <span>Codex Skill</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section section-light" aria-labelledby="projects-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Project Explorer</p>
+            <h2 id="projects-title">
+              <span class="zh">项目索引</span>
+              <span class="en">Project Index</span>
+            </h2>
+            <p class="zh">筛选或搜索项目，点开卡片可以看事实摘要、技术关键词和状态。</p>
+            <p class="en">Filter or search the projects. Open a card to see factual summaries, stack keywords, and current status.</p>
+          </div>
+
+          <div class="project-controls" aria-label="Project filters">
+            <div class="filter-buttons" role="group" aria-label="Filter projects by lane">
+              <button type="button" class="filter-button active" data-filter="all">
+                <span class="zh">全部</span><span class="en">All</span>
+              </button>
+              <button type="button" class="filter-button" data-filter="embedded">
+                <span class="zh">嵌入式</span><span class="en">Embedded</span>
+              </button>
+              <button type="button" class="filter-button" data-filter="automation">
+                <span class="zh">自动化</span><span class="en">Automation</span>
+              </button>
+              <button type="button" class="filter-button" data-filter="research">
+                <span class="zh">研究</span><span class="en">Research</span>
+              </button>
+              <button type="button" class="filter-button" data-filter="web">
+                <span class="zh">网站</span><span class="en">Web</span>
+              </button>
+              <button type="button" class="filter-button" data-filter="data">
+                <span class="zh">数据</span><span class="en">Data</span>
+              </button>
+              <button type="button" class="filter-button" data-filter="tooling">
+                <span class="zh">工具</span><span class="en">Tooling</span>
+              </button>
+            </div>
+            <label class="search-box">
+              <span class="zh">搜索</span>
+              <span class="en">Search</span>
+              <input id="projectSearch" type="search" placeholder="ARM, D2NN, Python..." />
+            </label>
+          </div>
+
+          <p class="result-count" id="resultCount" aria-live="polite"></p>
+          <div class="project-grid" id="projectGrid"></div>
+        </div>
+      </section>
+
+      <section class="section section-note" aria-labelledby="boundary-title">
+        <div class="section-inner note-grid">
+          <div>
+            <p class="section-kicker">Reading Notes</p>
+            <h2 id="boundary-title">
+              <span class="zh">阅读边界</span>
+              <span class="en">Boundaries</span>
+            </h2>
+          </div>
+          <div class="note-copy">
+            <p class="zh">
+              这里写的是公开仓库能支撑的事实，不是完整简历。课程项目、研究练习、fork 和业务原型会明确标注；个人联系方式和非公开材料不会放在这个页面里。
+            </p>
+            <p class="en">
+              This page describes facts supported by public repositories, not a full resume. Coursework, research practice, forks, and business prototypes are marked clearly. Private contact details and non-public files are not included.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Cyh29hao / Project Map</span>
+      <a href="https://github.com/Cyh29hao/my-Tech-Stack-202606" target="_blank" rel="noreferrer">Source</a>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
